@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Frago9876543210\EasyForms;
 
 use Frago9876543210\EasyForms\forms\CustomForm;
-use pocketmine\{player\Player, plugin\PluginBase};
+use pocketmine\{Player, plugin\PluginBase};
 use pocketmine\event\{Listener, server\DataPacketReceiveEvent};
 use pocketmine\network\mcpe\protocol\{ServerSettingsRequestPacket, ServerSettingsResponsePacket};
 use ReflectionObject;
